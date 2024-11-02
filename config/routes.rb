@@ -1,7 +1,7 @@
 Rails.application.routes.draw do
 
   ##Home##
-  
+  get("/", { :controller => "homepage", :action =>"home"})
 
   ##Square##
   get("/square/new", { :controller => "squarenew", :action =>"square_new"})
