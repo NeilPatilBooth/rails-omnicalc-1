@@ -10,4 +10,8 @@ Rails.application.routes.draw do
   ##Squareroot##
   get("/square_root/new", { :controller => "squarerootnew", :action =>"squareroot_new"})
   get("/square_root/results", { :controller => "squarerootresults", :action =>"squareroot_results"})
+
+  ##Payment##
+  get("/payment/new", { :controller => "paymentnew", :action => "payment_new"})
+  get("/payment/results", { :controller => "paymentresults", :action => "payment_results"})
 end
