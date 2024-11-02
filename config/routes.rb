@@ -14,4 +14,7 @@ Rails.application.routes.draw do
   ##Payment##
   get("/payment/new", { :controller => "paymentnew", :action => "payment_new"})
   get("/payment/results", { :controller => "paymentresults", :action => "payment_results"})
+
+  ##Random##
+  get("/random/new", { :controller => "randomnew", :action => "random_new"})
 end
